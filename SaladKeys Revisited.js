@@ -60,11 +60,6 @@ function keydown(event) {
     if(event.keyCode == 51) { //key 3
       window.saladAss(3);
     }
-    if(event.keyCode == 52) { //key 4
-      window.saladAss(1);
-      window.saladAss(2);
-      window.saladAss(3);
-    }
 }
 
 
