@@ -1,14 +1,11 @@
 // © 2020, Salad King. All Rights Reserved
 // ==UserScript==
 // @name         SaladKeys Revisited
-
 // @namespace    http://tampermonkey.net/
 // @version      0.7
 // @description  Controls: W = FEED ; SHIFT = QUADRUPLE ; Z = TRIPLESPLIT ; A = DOUBLESPLIT ; S =FREEZE CELL
 // @author       Salad King
 // @match        https://agar.io/*
-// @match        http://agma.io/
-// @match        http://gota.io/web/
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
