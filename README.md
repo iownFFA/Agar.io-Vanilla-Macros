@@ -1,5 +1,6 @@
 # Agar.io-Vanilla-Macros
-SaladKeys Revisited:
-The controls are W = FEED ; SHIFT = QUADRUPLE ; Z = TRIPLESPLIT ; A = DOUBLESPLIT ; S =FREEZE CELL
+# SaladKeys Revisited:
 
-Also there are potion hacks. Just press 1, 2 or 3 for opening the potions.
+## I don't want a GUI because I want a complete Vanilla experience
+
+**Use W to macro feed, Space to split, A to doublesplit, Shift to 16. You CAN press 5 to get the server ip. But you have to press F12 and go to console for finding the server ip.**
