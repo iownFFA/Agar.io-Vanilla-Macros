@@ -11,6 +11,7 @@
 // @grant        none
 // ==/UserScript==
 
+document.addEventListener('contextmenu', event => event.preventDefault());
 window.addEventListener('keydown', keydown);
 window.addEventListener('keyup', keyup);
 window.onload = function () {
