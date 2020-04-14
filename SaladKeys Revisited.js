@@ -65,9 +65,31 @@ function keydown(event) {
             window.saladAss(i);
         }
     }
-    if (event.keyCode == 53) { //key 5
-        {var n=WebSocket.prototype.send;window.__WS_send=WebSocket.prototype.send,WebSocket.prototype.send=function(o){var e=this.url;console.log(e);try{var t=/[^:\/]+\.agar\.io/.exec(e);alert("http://agar.io/?sip="+t[0])}catch(e){console.error(e.message)}try{n.apply(this,[o]),WebSocket.prototype.send=n}catch(e){window.__WS_send.apply(this,[o]),WebSocket.prototype.send=window.__WS_send}}};
+    if (event.keyCode == 53) {
+    //key 5
+    {
+        var n = WebSocket.prototype.send;
+        window.__WS_send = WebSocket.prototype.send,
+        WebSocket.prototype.send = function(o) {
+            var e = this.url;
+            console.log(e);
+            try {
+                var t = /[^:\/]+\.agar\.io/.exec(e);
+                alert("http://agar.io/?sip=" + t[0])
+            } catch (e) {
+                console.error(e.message)
+            }
+            try {
+                n.apply(this, [o]),
+                WebSocket.prototype.send = n
+            } catch (e) {
+                window.__WS_send.apply(this, [o]),
+                WebSocket.prototype.send = window.__WS_send
+            }
+        }
     }
+    ;
+}
 }
 
 
